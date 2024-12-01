@@ -36,6 +36,8 @@ const showWinner = (userWin, userChoice, compChoice) => {
   }
 };
 
+// play game section
+
 const playGame = (userChoice) => {
   //Generate computer choice
   const compChoice = genCompChoice();
